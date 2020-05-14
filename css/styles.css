@@ -1,0 +1,118 @@
+/* */
+/* -------------------- ALGEMEEN -------------------- */
+
+/* -------------------- SVG -------------------- */
+
+svg
+{
+    position: absolute;    
+}
+
+/* -------------------- DARK MODUS -------------------- */
+main
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+input[ type="checkbox"]
+{
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+}
+.check
+{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background: #cdcdcd;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+}
+input[ type="checkbox"]:checked ~ .check
+{
+    background: grey;
+    box-shadow: 0 0 0 2000px black;
+}
+.check:before
+{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: white;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s; 
+}
+input[ type="checkbox"]:checked ~ .check:before
+{
+    transform: translateX(-50px);
+}
+.check:after
+{
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s; 
+    transform: translateX(50px)
+}
+input[ type="checkbox"]:checked ~ .check:after
+{
+    transform: translateX(0px);
+}
+
+/* -------------------- RESPONSIVE DESIGN -------------------- */
+
+/* laptop: groter dan 1024*/
+#poster {
+    display: block;
+}
+
+#posterb, #posterc, #posterd {
+    display: none;
+}
+
+/* laptop: kleiner dan 1024*/
+@media (max-width: 1024px) {
+    #poster {
+        display: none;
+    }
+    #posterb {
+        display: block;
+    }
+}
+
+/* tablet: kleiner dan 768*/
+@media (max-width: 768px) {
+    #posterb {
+        display: none;
+    }
+    #posterc {
+        display: block;
+    }
+}
+
+/* mobiel: kleiner dan 414*/
+@media (max-width: 414px) {
+    #posterc {
+        display: none;
+    }
+    #posterd {
+        display: block;
+    }
+}
+
