@@ -2,10 +2,31 @@
 /* -------------------- ALGEMEEN -------------------- */
 
 /* -------------------- SVG -------------------- */
-
 svg
 {
-    position: absolute;    
+    position: absolute; 
+}
+
+/* -------------------- CURSOR -------------------- */
+/* kwaliteit van cursor moet beter --> url("https://svgshare.com/i/LCt.svg"), auto; Helaas werkt deze niet*/
+body
+{
+    cursor: url("https://iili.io/J7e2Y7.png"), auto;
+}
+
+#blauwegrond, #bruinegrond, #groenegrond, #grotebloem, #blad, #grootblad1
+{
+    cursor: default;
+}
+
+#blauwegrond, #bruinegrond, #groenegrond, #grotebloem, #blad, #grootblad1:hover
+{
+    opacity: 1;
+}
+
+path:hover
+{
+    opacity: 0;
 }
 
 /* -------------------- DARK MODUS -------------------- */
@@ -78,16 +99,19 @@ input[ type="checkbox"]:checked ~ .check:after
 /* -------------------- RESPONSIVE DESIGN -------------------- */
 
 /* laptop: groter dan 1024*/
-#poster {
+#poster 
+{
     display: block;
 }
 
-#posterb, #posterc, #posterd {
+#posterb, #posterc, #posterd 
+{
     display: none;
 }
 
 /* laptop: kleiner dan 1024*/
-@media (max-width: 1024px) {
+@media (max-width: 1024px) 
+{
     #poster {
         display: none;
     }
@@ -97,7 +121,8 @@ input[ type="checkbox"]:checked ~ .check:after
 }
 
 /* tablet: kleiner dan 768*/
-@media (max-width: 768px) {
+@media (max-width: 768px) 
+{
     #posterb {
         display: none;
     }
@@ -107,7 +132,8 @@ input[ type="checkbox"]:checked ~ .check:after
 }
 
 /* mobiel: kleiner dan 414*/
-@media (max-width: 414px) {
+@media (max-width: 414px) 
+{
     #posterc {
         display: none;
     }
