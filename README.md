@@ -41,4 +41,3 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 - [ ] *Mobiel/tablet* Klik op woord solution = oplossing = lieveheerstbeetjes is gevonden.
 
 
-
