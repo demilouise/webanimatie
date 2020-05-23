@@ -23,7 +23,7 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 4. Ik heb een aantal lieveheerstbeetjes opties gemaakt. De laatste vond ik het beste passen bij de poster, omdat deze simpel is en duidelijk. ![](https://iili.io/JXx7Sa.png)
 5. Ik heb een simpel vergrootglas gemaakt met een doorzijnend effect van het glas.
 
-![PNG van vergrootglas](https://iili.io/J7e2Y7.png)
+    ![PNG van vergrootglas](https://iili.io/J7e2Y7.png)
 
 ## Functies
 - [x] Switch = Van dag naar nacht met omgevingsgeluiden.
