@@ -1,39 +1,517 @@
-/* */
 /* -------------------- ALGEMEEN -------------------- */
 
-/* -------------------- SVG -------------------- */
+@font-face 
+{
+    src: url("FranklinGothicDemi.ttf") format("truetype"); /* bron: http://fontsgeek.com/fonts/Franklin-Gothic-Demi-Regular */
+}
+body 
+{
+  font-family: "FranklinGothicDemi", sans-serif;
+  color: #b9bb7e;
+  margin: 0;
+  text-align: center;
+}
+h1 
+{ 
+    font-size: 190%;
+    padding: 0;
+    margin: 0; 
+    margin-top: 20px;
+}
+h3 
+{
+    color: #cdcdcd;
+    margin-top: 0px; 
+}
+nav 
+{
+    margin-top: 20px;
+    padding: 0px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 0vh;
+   
+}
+main
+{
+    margin-top: -20px;
+}
+footer
+{
+    margin-top: 50px;
+
+}
 svg
 {
     position: absolute; 
-}
+    z-index: -1;
+    margin-top: -80px;
 
-/* -------------------- CURSOR -------------------- */
-/* kwaliteit van cursor moet beter --> url("https://svgshare.com/i/LCt.svg"), auto; Helaas werkt deze niet*/
-body
+} 
+
+/* -------------------- HOVER DEEL1 -------------------- */
+
+/*draaien langzaam*/
+#rozepluk, #roodrozepluk, #oranjepluk
 {
-    cursor: url("https://iili.io/J7e2Y7.png"), auto;
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 3s transform;
 }
-
-#blauwegrond, #bruinegrond, #groenegrond, #grotebloem, #blad, #grootblad1
+#rozepluk:hover, #roodrozepluk:hover, #oranjepluk:hover
 {
-    cursor: default;
+    transform: rotate(360deg);
 }
 
-#blauwegrond, #bruinegrond, #groenegrond, #grotebloem, #blad, #grootblad1:hover
+/*draaien snel*/
+#bloemc, #bloemd, #bloeme, #bloemf, #bloemg, #bloemh, #bloemi, #bloemj, #bloeml
 {
-    opacity: 1;
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 2s transform;
+}
+#bloemc:hover, #bloemd:hover, #bloeme:hover, #bloemf:hover, #bloemg:hover, #bloemh:hover, #bloemi:hover, #bloemj:hover, #bloeml:hover
+{
+    transform: rotate(360deg);
 }
 
-path:hover
+/*korte draai*/
+#grasc, #blaadje, #blaadjeb, #blaadjec, #blaadjed, #blaadjee, #gelepluk, #blaadjeg, #bloem, #bloemb
+{
+    transform: rotateZ(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#grasc:hover, #blaadje:hover, #blaadjeb:hover, #blaadjec:hover, #blaadjed:hover, #blaadjee:hover, #gelepluk:hover, #blaadjeg:hover, #bloem:hover, #bloemb:hover 
+{
+    transform: rotateZ(25deg);
+}
+
+/*korter*/
+#groenepluk, #groeneplukb, #groeneplukc, #geelgras, #zalmpluk, #grasb, #bloemk, #blaadjef, rodepluk
+{
+    transform: rotateX(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#groenepluk:hover, #groeneplukb:hover, #groeneplukc:hover, #geelgras:hover, #zalmpluk:hover, #grasb:hover, #bloemk:hover,#blaadjef:hover, rodepluk:hover 
+{
+    transform: rotateX(45deg);
+}
+
+/*smaller*/
+#grootbladb, #zalmplukb, #gras
+{
+    transform: rotateY(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#grootbladb:hover, #zalmplukb:hover, #gras:hover
+{
+    transform: rotateY(45deg);
+}
+
+/*rekken*/
+#oranjecirkel, #blaadjeh, #blaadjei
+{
+    transform: skewX(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#oranjecirkel:hover, #blaadjeh:hover, #blaadjei:hover
+{
+    transform: skewX(45deg);
+}
+
+/*groter*/
+#ladybug
+{
+    transform: scale(1) rotateZ(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#ladybug:hover
+{
+    transform: scale(4) rotateZ(90deg);
+}
+
+/* -------------------- HOVER DEEL2 -------------------- */
+
+/*draaien langzaam*/
+#rozepluk2, #roodrozepluk2, #oranjepluk2
+{
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 3s transform;
+}
+#rozepluk2:hover, #roodrozepluk2:hover, #oranjepluk2:hover
+{
+    transform: rotate(360deg);
+}
+
+/*draaien snel*/
+#bloemc2, #bloemd2, #bloeme2, #bloemf2, #bloemg2, #bloemh2, #bloemi2, #bloemj2, #bloeml2
+{
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 2s transform;
+}
+#bloemc2:hover, #bloemd2:hover, #bloeme2:hover, #bloemf2:hover, #bloemg2:hover, #bloemh2:hover, #bloemi2:hover, #bloemj2:hover, #bloeml2:hover
+{
+    transform: rotate(360deg);
+}
+
+/*korte draai*/
+#grasc2, #blaadje2_1_, #blaadjeb2, #blaadjec2, #blaadjed2, #blaadjee2, #gelepluk2, #blaadjeg2, #bloem2, #bloemb2
+{
+    transform: rotateZ(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#grasc2:hover, #blaadje2_1_:hover, #blaadjeb2:hover, #blaadjec2:hover, #blaadjed2:hover, #blaadjee2:hover, #gelepluk2:hover, #blaadjeg2:hover, #bloem2:hover, #bloemb2:hover 
+{
+    transform: rotateZ(25deg);
+}
+
+/*korter*/
+#groenepluk2_1_, #groeneplukb2, #groeneplukc2, #geelgras2, #zalmpluk2_1_, #grasb2, #bloemk2, #blaadjef2, rodepluk2_1_
+{
+    transform: rotateX(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#groenepluk2_1_:hover, #groeneplukb2:hover, #groeneplukc2:hover, #geelgras2:hover, #zalmpluk2_1_:hover, #grasb2:hover, #bloemk2:hover,#blaadjef2:hover, rodepluk2_1_:hover
+{
+    transform: rotateX(45deg);
+}
+
+/*smaller*/
+#grootbladb2, #zalmplukb2, #gras2_1_
+{
+    transform: rotateY(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#grootbladb2:hover, #zalmplukb2:hover, #gras2_1_:hover
+{
+    transform: rotateY(45deg);
+}
+
+/*rekken*/
+#oranjecirkel2, #blaadjeh2, #blaadjei2
+{
+    transform: skewX(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#oranjecirkel2:hover, #blaadjeh2:hover, #blaadjei2:hover
+{
+    transform: skewX(45deg);
+}
+
+/* -------------------- HOVER DEEL3 -------------------- */
+
+/*draaien langzaam*/
+#rozepluk3, #roodrozepluk3, #oranjepluk3
+{
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 3s transform;
+}
+#rozepluk3:hover, #roodrozepluk3:hover, #oranjepluk3:hover
+{
+    transform: rotate(360deg);
+}
+
+/*draaien snel*/
+#bloemc3, #bloemd3, #bloeme3, #bloemf3, #bloemg3, #bloemh3, #bloemi3, #bloemj3, #bloeml3
+{
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 2s transform;
+}
+#bloemc3:hover, #bloemd3:hover, #bloeme3:hover, #bloemf3:hover, #bloemg3:hover, #bloemh3:hover, #bloemi3:hover, #bloemj3:hover, #bloeml3:hover
+{
+    transform: rotate(360deg);
+}
+
+/*korte draai*/
+#grasc3, #blaadje3_1_, #blaadjeb3, #blaadjec3, #blaadjed3, #blaadjee3, #gelepluk3, #blaadjeg3, #bloem3_1_, #bloemb3
+{
+    transform: rotateZ(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#grasc3:hover, #blaadje3_1_:hover, #blaadjeb3:hover, #blaadjec3:hover, #blaadjed3:hover, #blaadjee3:hover, #gelepluk3:hover, #blaadjeg3:hover, #bloem3_1_:hover, #bloemb3:hover 
+{
+    transform: rotateZ(25deg);
+}
+
+/*korter*/
+#groenepluk3_1_, #groeneplukb3, #groeneplukc3, #geelgras3, #zalmpluk3, #grasb3, #bloemk3, #blaadjef3, rodepluk3
+{
+    transform: rotateX(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#groenepluk3_1_:hover, #groeneplukb3:hover, #groeneplukc3:hover, #geelgras3:hover, #zalmpluk3:hover, #grasb3:hover, #bloemk3:hover,#blaadjef3:hover, rodepluk3:hover
+{
+    transform: rotateX(45deg);
+}
+
+/*smaller*/
+#grootbladb3, #zalmplukb3, #gras3
+{
+    transform: rotateY(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#grootbladb3:hover, #zalmplukb3:hover, #gras3:hover
+{
+    transform: rotateY(45deg);
+}
+
+/*rekken*/
+#oranjecirkel3, #blaadjeh3, #blaadjei3
+{
+    transform: skewX(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#oranjecirkel3:hover, #blaadjeh3:hover, #blaadjei3:hover
+{
+    transform: skewX(45deg);
+}
+
+/* -------------------- HOVER DEEL4 -------------------- */
+
+/*draaien langzaam*/
+#rozepluk4, #roodrozepluk4, #oranjepluk4
+{
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 3s transform;
+}
+#rozepluk4:hover, #roodrozepluk4:hover, #oranjepluk4:hover
+{
+    transform: rotate(360deg);
+}
+
+/*draaien snel*/
+#bloemc4, #bloemd4, #bloeme4, #bloemf4, #bloemg4_1_, #bloemh4_1_, #bloemi4_1_, #bloemj4, #bloeml4
+{
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 2s transform;
+}
+#bloemc4:hover, #bloemd4:hover, #bloeme4:hover, #bloemf4:hover, #bloemg4_1_:hover, #bloemh4_1_:hover, #bloemi4_1_:hover, #bloemj4:hover, #bloeml4:hover
+{
+    transform: rotate(360deg);
+}
+
+/*korte draai*/
+#grasc4, #blaadje4_1_, #blaadjeb4, #blaadjec4, #blaadjed4, #blaadjee4, #gelepluk4, #blaadjeg4, #bloem4_1_, #bloemb4
+{
+    transform: rotateZ(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#grasc4:hover, #blaadje4_1_:hover, #blaadjeb4:hover, #blaadjec4:hover, #blaadjed4:hover, #blaadjee4:hover, #gelepluk4:hover, #blaadjeg4:hover, #bloem4_1_:hover, #bloemb4:hover 
+{
+    transform: rotateZ(25deg);
+}
+
+/*korter*/
+#groenepluk4, #groeneplukb4, #groeneplukc4, #geelgras4, #zalmpluk4, #grasb4, #bloemk4, #blaadjef4, rodepluk4
+{
+    transform: rotateX(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#groenepluk4:hover, #groeneplukb4:hover, #groeneplukc4:hover, #geelgras4:hover, #zalmpluk4:hover, #grasb4:hover, #bloemk4:hover,#blaadjef4:hover, rodepluk4:hover
+{
+    transform: rotateX(45deg);
+}
+
+/*smaller*/
+#grootbladb4, #zalmplukb4, #gras4
+{
+    transform: rotateY(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#grootbladb4:hover, #zalmplukb4:hover, #gras4:hover
+{
+    transform: rotateY(45deg);
+}
+
+/*rekken*/
+#oranjecirkel4, #blaadjeh4, #blaadjei4
+{
+    transform: skewX(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#oranjecirkel4:hover, #blaadjeh4:hover, #blaadjei4:hover
+{
+    transform: skewX(45deg);
+}
+
+
+
+/*enter key*/
+.weg
 {
     opacity: 0;
 }
 
+.weg1
+{
+    display: none;
+}
+
+/* -------------------- CURSOR -------------------- */
+/* url("https://svgshare.com/i/LHo.svg"), auto; Helaas werkt deze niet*/
+
+footer
+{
+    cursor: url("https://iili.io/J7e2Y7.png"), auto;
+}
+
+#blauwegrond, #bruinegrond, #groenegrond, #grotebloem, #blad, #grootblad
+{
+    cursor: default;
+}
+
+/* -------------------- MENU -------------------- */
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 40px;
+  left: 40px;   
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; 
+  z-index: 2; 
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: grey;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: absolute;
+  margin: -110px 0 0 0px;
+  padding-top: 25px;
+  padding-right: 45px;
+  padding-left: 80px;
+  transform: translate(0, -150%);
+  transition: transform 2s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+
+
+
 /* -------------------- DARK MODUS -------------------- */
+label
+{
+    margin-left: 36px;
+    margin-bottom: 70px;
+    width: 100%;
+    display: block;
+}
+
 main
 {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +520,6 @@ main
 input[ type="checkbox"]
 {
     -webkit-appearance: none;
-    visibility: hidden;
     display: none;
 }
 .check
@@ -61,7 +538,18 @@ input[ type="checkbox"]:checked ~ .check
 {
     background: grey;
     box-shadow: 0 0 0 2000px black;
+    z-index: -2; 
+} 
+.container
+{
+    box-shadow: transparant;
+    clip-path: circle(100px at var(--x) var(--y));
 }
+.container:active
+{
+    clip-path: circle(500px at var(--x) var(--y));
+}
+
 .check:before
 {
     content: '';
@@ -103,10 +591,42 @@ input[ type="checkbox"]:checked ~ .check:after
 {
     display: block;
 }
-
 #posterb, #posterc, #posterd 
 {
     display: none;
+    }
+ 
+/* laptop: kleiner dan 1050*/
+@media (min-width: 1490px) 
+{
+    h1 {
+        font-size: 250%
+    }
+    h3 {
+        font-size: 170%
+    }
+}
+
+/* laptop: kleiner dan 1050*/
+@media (max-width: 1170px) 
+{
+    h1 {
+        font-size: 180%
+    }
+    h3 {
+        font-size: 100%
+    }
+}
+
+/* laptop: kleiner dan 1050*/
+@media (max-width: 1090px) 
+{
+    h1 {
+        font-size: 160%
+    }
+    h3 {
+        font-size: 100%
+    }
 }
 
 /* laptop: kleiner dan 1024*/
@@ -117,6 +637,23 @@ input[ type="checkbox"]:checked ~ .check:after
     }
     #posterb {
         display: block;
+    }
+    h1 {
+        font-size: 150%
+    }
+    h3 {
+        font-size: 100%
+    }
+}
+
+/* laptop: kleiner dan 1050*/
+@media (max-width: 970px) 
+{
+    h1 {
+        font-size: 120%
+    }
+    h3 {
+        font-size: 100%
     }
 }
 
@@ -129,6 +666,12 @@ input[ type="checkbox"]:checked ~ .check:after
     #posterc {
         display: block;
     }
+    h1 {
+        font-size: 100%
+    }
+    h3 {
+        font-size: 80%
+    }
 }
 
 /* mobiel: kleiner dan 414*/
@@ -139,6 +682,12 @@ input[ type="checkbox"]:checked ~ .check:after
     }
     #posterd {
         display: block;
+    }
+    h1 {
+        font-size: 80%
+    }
+    h3 {
+        font-size: 50%
     }
 }
 
