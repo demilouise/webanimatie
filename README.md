@@ -18,7 +18,7 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 
 ## Toevoegingen
 1. Switch [Bron](https://www.youtube.com/watch?v=_f036OpnuWo)
-2. Geluid [Bron dagmuziek](https://www.youtube.com/watch?v=DqewBvd-bAA&t=2s) [Bron nachtmuziek](https://www.youtube.com/watch?v=tOcN0QLRQa4&t=15s)
+2. Geluid [Bron dagmuziek](https://www.youtube.com/watch?v=DqewBvd-bAA&t=2s) + [Bron nachtmuziek](https://www.youtube.com/watch?v=tOcN0QLRQa4&t=15s)
 3. Menu [Bron](https://codepen.io/erikterwan/pen/EVzeRP)
 4. Ik heb een aantal lieveheerstbeetjes opties gemaakt. De laatste vond ik het beste passen bij de poster, omdat deze simpel is en duidelijk. ![](https://iili.io/JXx7Sa.png)
 5. Ik heb een simpel vergrootglas gemaakt met een doorzijnend effect van het glas.
@@ -29,7 +29,7 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 - [x] Menu = Titel poster + uitleg animatie.
 - [x] Responsive design voor laptop, tablet en mobiel. [Bron](https://webdesign.tutsplus.com/tutorials/how-to-create-responsive-svg-images--cms-32140)
 - [ ] Lieveheerstbeetjes is in alle 4 de svg's verstopt.
-- [x] Cursor vergrootglas = verschijnt op alle vorm elemten waar het lieveheerstbeestje achter verstopt kan zitten. [Bron](https://css-tricks.com/using-css-cursors/ Creating Custom Cursors - CSS Only, and JavaScript!) + [Bron](https://freeimage.host/)
+- [x] Cursor vergrootglas = verschijnt op alle vorm elemten waar het lieveheerstbeestje achter verstopt kan zitten. [Bron](https://css-tricks.com/using-css-cursors/) + [Bron](https://www.youtube.com/watch?v=rfpRZ2t_BrQ&list=UUVyRiMvfUNMA1UPlDPzG5Ow&index=73) + [Bron](https://freeimage.host/)
 - [x] *Desktop* Hover op vorm element = vorm beweegt.
 - [x] *Desktop* Klik op vorm element = vormt verdwijnt.
 - [ ] *Desktop* Klik op toest ENTER = oplossing = lieveheerstbeestje is gevonden. [Bron]( https://keycode.info/)
