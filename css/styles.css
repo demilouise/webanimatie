@@ -34,7 +34,7 @@ nav
 }
 main
 {
-    margin-top: -20px;
+    margin-top: -30px;
 }
 footer
 {
@@ -707,7 +707,7 @@ input[ type="checkbox"]:checked ~ .check:after
         display: block;
     }
     h1 {
-        font-size: 100%
+        font-size: 110%
     }
     h3 {
         font-size: 80%
@@ -724,10 +724,10 @@ input[ type="checkbox"]:checked ~ .check:after
         display: block;
     }
     h1 {
-        font-size: 80%
+        font-size: 90%
     }
     h3 {
-        font-size: 50%
+        font-size: 70%
     }
 }
 
