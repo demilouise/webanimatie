@@ -16,7 +16,6 @@ checkbox.addEventListener('change', () => {
 });
 
 //enter key of klikken op woord enter met hulp van Bart van der Lans
-
 window.addEventListener("keydown", function (event) {
 	console.log(window.innerWidth);
     if(event.keyCode === 13 && window.innerWidth >= 1024){
@@ -60,10 +59,10 @@ function myFunction() {
     }
 }
 
-//Blend mode dark
+/*//Blend mode dark
 document.querySelector('#switch').addEventListener('click', function() {
     document.querySelector('svg').classList.toggle('dark');
-});
+});*/
 
 //klikken 
 document.querySelector('#rozepluk').addEventListener('click', weg);
