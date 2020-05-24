@@ -15,15 +15,55 @@ checkbox.addEventListener('change', () => {
     }
 });
 
-//enter key
-var grasweg = document.querySelector('#grasc');
-window.addEventListener('keydown', toggle)
+//enter key of klikken op woord enter met hulp van Bart van der Lans
 
-function toggle(event) {
-    if(event.keyCode === 13){
-    document.querySelector('#grasc').classList.toggle('weg1');
+window.addEventListener("keydown", function (event) {
+	console.log(window.innerWidth);
+    if(event.keyCode === 13 && window.innerWidth >= 1024){
+    	console.log("111");
+    	document.querySelector('#grasc').classList.toggle('weg1');
+    }
+    else if(event.keyCode === 13 && window.innerWidth > 768){
+    	console.log("222");
+    	document.querySelector('#grasc2').classList.toggle('weg1');
+    }
+    else if(event.keyCode === 13 && window.innerWidth > 414){
+    	console.log("333");
+    	document.querySelector('#grasc3').classList.toggle('weg1');
+    }
+    // if(event.keyCode === 13 && window.innerWidth > 414){
+    else {
+    	console.log("444");
+    	document.querySelector('#grasc4').classList.toggle('weg1');
+    }
+}, true);
+
+document.getElementById("klik").onclick = function() {myFunction()};
+function myFunction() {
+	console.log(window.innerWidth);
+    if(window.innerWidth >= 1024){
+    	console.log("111");
+    	document.querySelector('#grasc').classList.toggle('weg1');
+    }
+    else if(window.innerWidth > 768){
+    	console.log("222");
+    	document.querySelector('#grasc2').classList.toggle('weg1');
+    }
+    else if(window.innerWidth > 414){
+    	console.log("333");
+    	document.querySelector('#grasc3').classList.toggle('weg1');
+    }
+    // if(window.innerWidth > 414){
+    else {
+    	console.log("444");
+    	document.querySelector('#grasc4').classList.toggle('weg1');
     }
 }
+
+//Blend mode dark
+document.querySelector('#switch').addEventListener('click', function() {
+    document.querySelector('svg').classList.toggle('dark');
+});
 
 //klikken 
 document.querySelector('#rozepluk').addEventListener('click', weg);
@@ -220,25 +260,3 @@ function weg() {
   console.log('ikbengeklikt');  
     this.classList.toggle("weg");  
 }
-
-
-
-
-/*document.querySelector('#rozepluk').addEventListener('click', weg("rozepluk", 4));
-document.querySelector('#rozepluk2').addEventListener('click', weg("rozepluk", 4));
-document.querySelector('#rozepluk3').addEventListener('click', weg("rozepluk", 4));
-document.querySelector('#rozepluk4').addEventListener('click', weg("rozepluk", 4));
-
-function weg(naam, aantal) {
-  for (i = 1; i =< aantal; i++) {
-    document.querySelector('#' + naam + i).classList.toggle("weg");
-  }*/
-
-/*
-var root = document.documentElement;
-
-root.addEventListener('mousemove', function(e){
-    root.style.setProperty('--x', e.clientX + 'px');
-    root.style.setProperty('--y', e.clientY + 'px');
-});
-*/
