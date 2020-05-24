@@ -31,7 +31,6 @@ nav
     justify-content: center;
     align-items: center;
     min-height: 0vh;
-   
 }
 main
 {
@@ -57,9 +56,9 @@ svg
   color: black;
   transition: 1s;
 }
-.dark {
+/*.dark {
     mix-blend-mode: darken;
-}
+}*/
 
 /* -------------------- HOVER DEEL1 -------------------- */
 
