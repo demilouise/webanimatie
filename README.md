@@ -33,7 +33,7 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 - [x] Menu = Titel poster + uitleg animatie.
 - [x] Responsive design voor laptop, tablet en mobiel. [Bron](https://webdesign.tutsplus.com/tutorials/how-to-create-responsive-svg-images--cms-32140)
 - [ ] Lieveheerstbeetjes is in alle 4 de svg's verstopt.
-- [x] Cursor vergrootglas = verschijnt op alle vorm elemten waar het lieveheerstbeestje achter verstopt kan zitten. [Bron](https://css-tricks.com/using-css-cursors/) + [Bron](https://www.youtube.com/watch?v=rfpRZ2t_BrQ&list=UUVyRiMvfUNMA1UPlDPzG5Ow&index=73) + [Bron](https://freeimage.host/)
+- [x] Cursor vergrootglas = verschijnt op alle verstopplekken opties van lieveheerstbeestje. [Bron](https://css-tricks.com/using-css-cursors/) + [Bron](https://www.youtube.com/watch?v=rfpRZ2t_BrQ&list=UUVyRiMvfUNMA1UPlDPzG5Ow&index=73) + [Bron](https://freeimage.host/)
 - [x] *Desktop* Hover op vorm element = vorm beweegt.
 - [x] *Desktop* Klik op vorm element = vormt verdwijnt.
 - [ ] *Desktop* Klik op toest ENTER = oplossing = lieveheerstbeestje is gevonden. [Bron]( https://keycode.info/)
