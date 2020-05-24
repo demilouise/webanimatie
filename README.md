@@ -17,28 +17,38 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 2. De poster lijkt op een collage met verschillende lagen, het leek mij leuk om te experimenteren met de zichtbaarheid van de verschillende vormen. Ik heb ervoor gekozen dat de gebruiker op elke vorm kan klikken om deze te laten verdwijnen. En opzoek kan gaan naar het verborgen lieveheersbeestje. 
 
 ## Toevoegingen
-1. Switch [Bron](https://www.youtube.com/watch?v=_f036OpnuWo)
-2. Geluid [Bron dagmuziek](https://www.youtube.com/watch?v=DqewBvd-bAA&t=2s) + [Bron nachtmuziek](https://www.youtube.com/watch?v=tOcN0QLRQa4&t=15s)
-3. Menu [Bron](https://codepen.io/erikterwan/pen/EVzeRP)
+1. Switch 
+2. Geluid  
+3. Menu 
 4. Ik heb een aantal lieveheerstbeetjes opties gemaakt. De laatste vond ik het beste passen bij de poster, omdat deze simpel is en duidelijk. ![](https://iili.io/JXx7Sa.png)
 5. Ik heb een simpel vergrootglas gemaakt met een doorzijnend effect van het glas.
 
     ![PNG van vergrootglas](https://iili.io/J7e2Y7.png)
 6. Andere poster composities zodat het responsive kan worden. 
 
-![](https://iili.io/JXaRXs.png)
+    ![](https://iili.io/JXaRXs.png)
 
 ## Functies
 - [x] Switch = Van dag naar nacht met omgevingsgeluiden.
 - [x] Menu = Titel poster + uitleg animatie.
-- [x] Responsive design voor laptop, tablet en mobiel. [Bron](https://webdesign.tutsplus.com/tutorials/how-to-create-responsive-svg-images--cms-32140)
+- [x] Responsive design voor laptop, tablet en mobiel. 
 - [ ] Lieveheerstbeetjes is in alle 4 de svg's verstopt.
-- [x] Cursor vergrootglas = verschijnt op alle verstopplek opties van lieveheerstbeestje. [Bron](https://css-tricks.com/using-css-cursors/) + [Bron](https://www.youtube.com/watch?v=rfpRZ2t_BrQ&list=UUVyRiMvfUNMA1UPlDPzG5Ow&index=73) + [Bron](https://freeimage.host/)
+- [x] Cursor vergrootglas = verschijnt op alle verstopplek opties van lieveheerstbeestje. 
 - [x] *Desktop* Hover op vorm element = vorm beweegt.
 - [x] *Desktop* Klik op vorm element = vormt verdwijnt.
-- [ ] *Desktop* Klik op toest ENTER = oplossing = lieveheerstbeestje is gevonden. [Bron]( https://keycode.info/)
+- [ ] *Desktop* Klik op toest ENTER = oplossing = lieveheerstbeestje is gevonden. 
 - [x] *Desktop* Hover op lieveheerstbeestje = wordt groter
 - [x] *Mobiel/tablet* Klik op vorm element = vormt verdwijnt en beweegt.
 - [ ] *Mobiel/tablet* Klik op woord solution = oplossing = lieveheerstbeetjes is gevonden.
 
+## Bronnen
+- [Voorbeeld switch](https://www.youtube.com/watch?v=_f036OpnuWo)
+- [Bron dagmuziek](https://www.youtube.com/watch?v=DqewBvd-bAA&t=2s)
+- [Bron nachtmuziek](https://www.youtube.com/watch?v=tOcN0QLRQa4&t=15s)
+- [Voorbeeld menu](https://codepen.io/erikterwan/pen/EVzeRP)
+- [Voorbeeld responsive design](https://webdesign.tutsplus.com/tutorials/how-to-create-responsive-svg-images--cms-32140)
+- [Voorbeeld CSS cursor](https://css-tricks.com/using-css-cursors/)
+- [Voorbeeld custom cursor](https://www.youtube.com/watch?v=rfpRZ2t_BrQ&list=UUVyRiMvfUNMA1UPlDPzG5Ow&index=73)
+- [Bron free image hosting](https://freeimage.host/)
+- [Bron keyCodes]( https://keycode.info/)
 
