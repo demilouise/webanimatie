@@ -42,6 +42,11 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 - [x] *Mobiel/tablet* Klik op vorm element = vormt verdwijnt en beweegt.
 - [x] *Mobiel/tablet* Klik op woord solution = oplossing = lieveheerstbeetjes is gevonden.
 
+## Reflectie
+Voor dit vak had ik geen enkele kennis van code, nog nooit gezien of meegewerkt. Ik kom van de opleiding Product Design en volg nu deze minor ter verbreding van mijn kennis. Mijn doel dit vak was heel veel leren, onthouden en geënthousiasmeerd worden. Ik wil niet overdijven, maar deze 3 doelen heb ik behaald en daar ben ik trots op! 
+In de meivakantie heb ik uren linkedIn learning tutorials gekeken en later op youtube kon ik hele specifieke tutorials vinden. Dit gaf mij een basis. De vele voorbeeld die ik vond op codepen.io en css-tricks.com tijdens het vak waren heel nuttig. Hulp vragen aan medestudenten was in het begin van het vak erg lastig, maar later lukte dat wel en dat was erg fijn. Ik heb ook met een medestudent buiten de les om afgesproken om elkaar puur feedback te geven en samen te brainstormen wat kan nog worden toegevoegd. 
+Ik ben erg tevreden met mijn eindresultaat. Tijdens het vak kwamen er steeds meer functies bij die ik voor elkaar kreeg. En het hele interactive concept past bij de orginele poster. 
+
 ## Bronnen
 - [Voorbeeld switch](https://www.youtube.com/watch?v=_f036OpnuWo)
 - [Bron dagmuziek](https://www.youtube.com/watch?v=DqewBvd-bAA&t=2s)
@@ -53,4 +58,3 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 - [Bron free image hosting](https://freeimage.host/)
 - [Bron keyCodes]( https://keycode.info/)
 - [Voorbeeld onclick](https://www.w3schools.com/jsref/event_onclick.asp)
-
