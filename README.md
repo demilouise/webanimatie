@@ -40,7 +40,7 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 - [x] *Desktop* Klik op toest ENTER = oplossing = lieveheerstbeestje is gevonden. 
 - [x] *Desktop* Hover op lieveheerstbeestje = wordt groter.
 - [x] *Mobiel/tablet* Klik op vorm element = vormt verdwijnt en beweegt.
-- [ ] *Mobiel/tablet* Klik op woord solution = oplossing = lieveheerstbeetjes is gevonden en wordt groter.
+- [x] *Mobiel/tablet* Klik op woord solution = oplossing = lieveheerstbeetjes is gevonden en wordt groter.
 
 ## Bronnen
 - [Voorbeeld switch](https://www.youtube.com/watch?v=_f036OpnuWo)
@@ -52,4 +52,5 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 - [Voorbeeld custom cursor](https://www.youtube.com/watch?v=rfpRZ2t_BrQ&list=UUVyRiMvfUNMA1UPlDPzG5Ow&index=73)
 - [Bron free image hosting](https://freeimage.host/)
 - [Bron keyCodes]( https://keycode.info/)
+- [Voorbeeld onclick](https://www.w3schools.com/jsref/event_onclick.asp)
 
