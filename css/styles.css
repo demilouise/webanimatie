@@ -8,7 +8,7 @@ body
 {
   font-family: "FranklinGothicDemi", sans-serif;
   color: #b9bb7e;
-  margin: 0;
+  padding: 5px;
   text-align: center;
 }
 h1 
@@ -44,7 +44,7 @@ svg
 {
     position: absolute; 
     z-index: -1;
-    margin-top: -80px;
+    margin-top: -70px;
 } 
 .klikbaar 
 {
@@ -459,7 +459,7 @@ footer
 {
   display: block;
   position: relative;
-  top: 50px;
+  top: 40px;
   left: 40px;   
   -webkit-user-select: none;
   user-select: none;
@@ -715,14 +715,14 @@ input[ type="checkbox"]:checked ~ .check:after
     }
 }
 
-/* tablet: kleiner dan 768*/
-@media (max-width: 500px) 
+/* tablet: kleiner dan 600*/
+@media (max-width: 600px) 
 {
     h1 {
         font-size: 100%
     }
     h3 {
-        font-size: 80%
+        font-size: 70%
     }
 }
 
