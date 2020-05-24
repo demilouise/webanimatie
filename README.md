@@ -26,7 +26,7 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
     ![PNG van vergrootglas](https://iili.io/J7e2Y7.png)
 6. Andere poster composities zodat het responsive kan worden. 
 
-![](https://iili.io/JXzP1t.png)
+![](https://iili.io/JXaRXs.png)
 
 ## Functies
 - [x] Switch = Van dag naar nacht met omgevingsgeluiden.
