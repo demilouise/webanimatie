@@ -30,16 +30,17 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 
 ## Functies
 - [x] Switch = Van dag naar nacht met omgevingsgeluiden.
+- [ ] Bij nacht krijgt de hele svg een mix-blend-mode.
 - [x] Menu = Titel poster + uitleg animatie.
 - [x] Responsive design voor laptop, tablet en mobiel. 
-- [ ] Lieveheerstbeetjes is in alle 4 de svg's verstopt.
+- [ ] Lieveheerstbeetjes zijn in alle 4 de svg's verstopt.
 - [x] Cursor vergrootglas = verschijnt op alle verstopplek opties van lieveheerstbeestje. 
 - [x] *Desktop* Hover op vorm element = vorm beweegt.
 - [x] *Desktop* Klik op vorm element = vormt verdwijnt.
-- [ ] *Desktop* Klik op toest ENTER = oplossing = lieveheerstbeestje is gevonden. 
-- [x] *Desktop* Hover op lieveheerstbeestje = wordt groter
+- [x] *Desktop* Klik op toest ENTER = oplossing = lieveheerstbeestje is gevonden. 
+- [x] *Desktop* Hover op lieveheerstbeestje = wordt groter.
 - [x] *Mobiel/tablet* Klik op vorm element = vormt verdwijnt en beweegt.
-- [ ] *Mobiel/tablet* Klik op woord solution = oplossing = lieveheerstbeetjes is gevonden.
+- [ ] *Mobiel/tablet* Klik op woord solution = oplossing = lieveheerstbeetjes is gevonden en wordt groter.
 
 ## Bronnen
 - [Voorbeeld switch](https://www.youtube.com/watch?v=_f036OpnuWo)
