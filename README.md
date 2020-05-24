@@ -40,7 +40,7 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 - [x] *Desktop* Klik op toest ENTER = oplossing = lieveheerstbeestje is gevonden. 
 - [x] *Desktop* Hover op lieveheerstbeestje = wordt groter.
 - [x] *Mobiel/tablet* Klik op vorm element = vormt verdwijnt en beweegt.
-- [x] *Mobiel/tablet* Klik op woord solution = oplossing = lieveheerstbeetjes is gevonden en wordt groter.
+- [x] *Mobiel/tablet* Klik op woord solution = oplossing = lieveheerstbeetjes is gevonden.
 
 ## Bronnen
 - [Voorbeeld switch](https://www.youtube.com/watch?v=_f036OpnuWo)
