@@ -17,9 +17,9 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 2. De poster lijkt op een collage met verschillende lagen, het leek mij leuk om te experimenteren met de zichtbaarheid van de verschillende vormen. Ik heb ervoor gekozen dat de gebruiker op elke vorm kan klikken om deze te laten verdwijnen. En opzoek kan gaan naar het verborgen lieveheersbeestje. 
 
 ## Toevoegingen
-1. Switch 
-2. Geluid  
-3. Menu 
+1. Switch.
+2. Geluid. 
+3. Menu. 
 4. Ik heb een aantal lieveheerstbeetjes opties gemaakt. De laatste vond ik het beste passen bij de poster, omdat deze simpel is en duidelijk. ![](https://iili.io/JXx7Sa.png)
 5. Ik heb een simpel vergrootglas gemaakt met een doorzijnend effect van het glas.
 
@@ -44,7 +44,9 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 
 ## Reflectie
 Voor dit vak had ik geen enkele kennis van code, nog nooit gezien of meegewerkt. Ik kom van de opleiding Product Design en volg nu deze minor ter verbreding van mijn kennis. Mijn doel dit vak was heel veel leren, onthouden en geënthousiasmeerd worden. Ik wil niet overdijven, maar deze 3 doelen heb ik behaald en daar ben ik trots op! 
+
 In de meivakantie heb ik uren linkedIn learning tutorials gekeken en later op youtube kon ik hele specifieke tutorials vinden. Dit gaf mij een basis. De vele voorbeeld die ik vond op codepen.io en css-tricks.com tijdens het vak waren heel nuttig. Hulp vragen aan medestudenten was in het begin van het vak erg lastig, maar later lukte dat wel en dat was erg fijn. Ik heb ook met een medestudent buiten de les om afgesproken om elkaar puur feedback te geven en samen te brainstormen wat kan nog worden toegevoegd. 
+
 Ik ben erg tevreden met mijn eindresultaat. Tijdens het vak kwamen er steeds meer functies bij die ik voor elkaar kreeg. En het hele interactive concept past bij de orginele poster. 
 
 ## Bronnen
