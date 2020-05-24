@@ -40,15 +40,26 @@ main
 footer
 {
     margin-top: 50px;
-
 }
 svg
 {
     position: absolute; 
     z-index: -1;
     margin-top: -80px;
-
 } 
+.klikbaar 
+{
+  cursor:pointer;
+  transition:0.5s;
+}
+
+.klikbaar:hover {
+  color: black;
+  transition: 1s;
+}
+.dark {
+    mix-blend-mode: darken;
+}
 
 /* -------------------- HOVER DEEL1 -------------------- */
 
@@ -223,6 +234,18 @@ svg
     transform: skewX(45deg);
 }
 
+#ladybug2
+{
+    transform: scale(1) rotateZ(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#ladybug2:hover
+{
+    transform: scale(4) rotateZ(90deg);
+}
+
 /* -------------------- HOVER DEEL3 -------------------- */
 
 /*draaien langzaam*/
@@ -301,6 +324,18 @@ svg
 #oranjecirkel3:hover, #blaadjeh3:hover, #blaadjei3:hover
 {
     transform: skewX(45deg);
+}
+
+#ladybug3
+{
+    transform: scale(1) rotateZ(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#ladybug3:hover
+{
+    transform: scale(4) rotateZ(90deg);
 }
 
 /* -------------------- HOVER DEEL4 -------------------- */
@@ -383,9 +418,20 @@ svg
     transform: skewX(45deg);
 }
 
+#ladybug4
+{
+    transform: scale(1) rotateZ(0deg);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition: ease 0.5s transform;
+}
+#ladybug4:hover
+{
+    transform: scale(4) rotateZ(90deg);
+}
 
+/* -------------------- JS CLASSLIST -------------------- */
 
-/*enter key*/
 .weg
 {
     opacity: 0;
@@ -395,9 +441,7 @@ svg
 {
     display: none;
 }
-
 /* -------------------- CURSOR -------------------- */
-/* url("https://svgshare.com/i/LHo.svg"), auto; Helaas werkt deze niet*/
 
 footer
 {
@@ -495,11 +539,8 @@ footer
   transform: none;
 }
 
-
-
-
-
 /* -------------------- DARK MODUS -------------------- */
+
 label
 {
     margin-left: 36px;
@@ -596,7 +637,7 @@ input[ type="checkbox"]:checked ~ .check:after
     display: none;
     }
  
-/* laptop: kleiner dan 1050*/
+/* laptop: kleiner dan 1490*/
 @media (min-width: 1490px) 
 {
     h1 {
@@ -607,7 +648,7 @@ input[ type="checkbox"]:checked ~ .check:after
     }
 }
 
-/* laptop: kleiner dan 1050*/
+/* laptop: kleiner dan 1170*/
 @media (max-width: 1170px) 
 {
     h1 {
@@ -618,7 +659,7 @@ input[ type="checkbox"]:checked ~ .check:after
     }
 }
 
-/* laptop: kleiner dan 1050*/
+/* laptop: kleiner dan 1090*/
 @media (max-width: 1090px) 
 {
     h1 {
