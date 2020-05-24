@@ -37,10 +37,10 @@ Een levendige en uitnodigende poster te maken om de gebruiker te enthousiasmeren
 - [x] Cursor vergrootglas = verschijnt op alle verstopplek opties van lieveheerstbeestje. 
 - [x] *Desktop* Hover op vorm element = vorm beweegt.
 - [x] *Desktop* Klik op vorm element = vormt verdwijnt.
-- [ ] *Desktop* Klik op toest ENTER = oplossing = lieveheerstbeestje is gevonden. 
+- [x] *Desktop* Klik op toest ENTER = oplossing = lieveheerstbeestje is gevonden. 
 - [x] *Desktop* Hover op lieveheerstbeestje = wordt groter.
 - [x] *Mobiel/tablet* Klik op vorm element = vormt verdwijnt en beweegt.
-- [ ] *Mobiel/tablet* Klik op woord solution = oplossing = lieveheerstbeetjes is gevonden.
+- [x] *Mobiel/tablet* Klik op woord solution = oplossing = lieveheerstbeetjes is gevonden.
 
 ## Bronnen
 - [Voorbeeld switch](https://www.youtube.com/watch?v=_f036OpnuWo)
