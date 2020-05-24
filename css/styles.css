@@ -25,7 +25,7 @@ h3
 }
 nav 
 {
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 0px;
     display: block;
     justify-content: center;
@@ -440,6 +440,7 @@ svg
 {
     display: none;
 }
+
 /* -------------------- CURSOR -------------------- */
 
 footer
@@ -458,7 +459,7 @@ footer
 {
   display: block;
   position: relative;
-  top: 40px;
+  top: 50px;
   left: 40px;   
   -webkit-user-select: none;
   user-select: none;
@@ -710,6 +711,17 @@ input[ type="checkbox"]:checked ~ .check:after
         font-size: 110%
     }
     h3 {
+        font-size: 90%
+    }
+}
+
+/* tablet: kleiner dan 768*/
+@media (max-width: 500px) 
+{
+    h1 {
+        font-size: 100%
+    }
+    h3 {
         font-size: 80%
     }
 }
@@ -724,7 +736,7 @@ input[ type="checkbox"]:checked ~ .check:after
         display: block;
     }
     h1 {
-        font-size: 90%
+        font-size: 100%
     }
     h3 {
         font-size: 70%
